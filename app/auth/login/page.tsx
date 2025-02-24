@@ -1,10 +1,7 @@
 "use client";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function LoginPage() {
-  const router = useRouter();
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-900 text-white">
       <div className="max-w-md w-full bg-gray-800 p-6 rounded-lg shadow-lg">
@@ -26,7 +23,7 @@ export default function LoginPage() {
         </button>
 
         <p className="text-center text-gray-400 mt-4">
-          Don't have an account? <Link href="/auth/signup" className="text-yellow-400 hover:underline">Sign Up</Link>
+          Don&apos;t have an account? <Link href="/auth/signup" className="text-yellow-400 hover:underline">Sign Up</Link>
         </p>
       </div>
     </div>

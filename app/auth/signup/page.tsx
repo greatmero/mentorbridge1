@@ -1,10 +1,7 @@
 "use client";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function SignUpPage() {
-  const router = useRouter();
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-900 text-white">
       <div className="max-w-md w-full bg-gray-800 p-6 rounded-lg shadow-lg">
